@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
+title: Evening Potato
 ---
-# Greeting
+# {{ title }}
 
 Hello, world!
