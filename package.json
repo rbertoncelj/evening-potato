@@ -3,25 +3,19 @@
   "version": "1.0.0",
   "description": "Evening potato is the best kind of potato!",
   "scripts": {
-    "build": "npx @11ty/eleventy --input=docs --output=_site"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rbertoncelj/evening-potato.git"
   },
-  "keywords": [
-    "evening potato",
-    "evening",
-    "potato",
-    "11ty",
-    "eleventy"
-  ],
-  "author": "Rok Bertoncelj",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/rbertoncelj/evening-potato/issues"
   },
-  "homepage": "https://github.com/rbertoncelj/evening-potato#readme",
+  "homepage": "https://github.com/rbertoncelj/evening-potato",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
   }
