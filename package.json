@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/rbertoncelj/evening-potato",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "doctoc": "^2.2.0",
+    "markdown-it-anchor": "^8.6.3"
   }
 }
